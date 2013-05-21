@@ -47,9 +47,12 @@
       <filterExecutors>false</filterExecutors>
       <filterQueue>false</filterQueue>
       <properties class="hudson.model.View$PropertyList"/>
+      <selectedJob>deploy-to-prod</selectedJob>
+      <noOfDisplayedBuilds>1</noOfDisplayedBuilds>
+      <buildViewTitle></buildViewTitle>
       <triggerOnlyLatestJob>false</triggerOnlyLatestJob>
-      <alwaysAllowManualTrigger>true</alwaysAllowManualTrigger>
-      <showPipelineParameters>true</showPipelineParameters>
+      <alwaysAllowManualTrigger>false</alwaysAllowManualTrigger>
+      <showPipelineParameters>false</showPipelineParameters>
       <refreshFrequency>3</refreshFrequency>
       <showPipelineDefinitionHeader>false</showPipelineDefinitionHeader>
       <displayProgressBar>false</displayProgressBar>
