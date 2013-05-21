@@ -12,13 +12,7 @@
   <conditions>
     <hudson.plugins.promoted__builds.conditions.ManualCondition>
       <users></users>
-      <parameterDefinitions>
-        <hudson.model.StringParameterDefinition>
-          <name>COMMIT_BUILD</name>
-          <description>Commit build number</description>
-          <defaultValue>${COMMIT_BUILD}</defaultValue>
-        </hudson.model.StringParameterDefinition>
-      </parameterDefinitions>
+      <parameterDefinitions/>
     </hudson.plugins.promoted__builds.conditions.ManualCondition>
   </conditions>
   <icon>star-gold</icon>
@@ -31,7 +25,7 @@
               <properties>COMMIT_BUILD=${COMMIT_BUILD}</properties>
             </hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
           </configs>
-          <projects>deploy-to-prod, </projects>
+          <projects>deploy-to-prod</projects>
           <condition>SUCCESS</condition>
           <triggerWithNoParameters>false</triggerWithNoParameters>
         </hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
