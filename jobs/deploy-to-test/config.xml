@@ -36,7 +36,7 @@ fab test deploy_petclinic</command>
       </configs>
     </hudson.plugins.parameterizedtrigger.BuildTrigger>
     <hudson.tasks.BuildTrigger>
-      <childProjects>acceptane-test</childProjects>
+      <childProjects>acceptance-test</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>
