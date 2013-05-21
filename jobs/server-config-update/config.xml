@@ -61,9 +61,6 @@
   <concurrentBuild>false</concurrentBuild>
   <builders/>
   <publishers>
-    <au.com.centrumsystems.hudson.plugin.buildpipeline.trigger.BuildPipelineTrigger plugin="build-pipeline-plugin@1.3.3">
-      <downstreamProjectNames>deploy-to-test</downstreamProjectNames>
-    </au.com.centrumsystems.hudson.plugin.buildpipeline.trigger.BuildPipelineTrigger>
     <hudson.plugins.parameterizedtrigger.BuildTrigger plugin="parameterized-trigger@2.17">
       <configs>
         <hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
