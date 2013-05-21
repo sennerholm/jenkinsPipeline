@@ -110,7 +110,7 @@
   </prebuilders>
   <postbuilders>
     <hudson.tasks.Shell>
-      <command>mvn release:clean release:prepare release:perform
+      <command>mvn release:clean release:prepare release:perform -DskipTests=true
 cp /var/lib/jenkins/jobs/compile-and-test/workspace/target/*.zip /var/lib/jenkins/jobs/compile-and-test/builds/${BUILD_NUMBER}/ 
 env</command>
     </hudson.tasks.Shell>
