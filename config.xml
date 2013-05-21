@@ -43,7 +43,7 @@
     </au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView>
     <au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView plugin="build-pipeline-plugin@1.3.3">
       <owner class="hudson" reference="../../.."/>
-      <name>DEploy to production &apos;pipeline&apos;</name>
+      <name>Deploy to production &apos;pipeline&apos;</name>
       <filterExecutors>false</filterExecutors>
       <filterQueue>false</filterQueue>
       <properties class="hudson.model.View$PropertyList"/>
