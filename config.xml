@@ -43,32 +43,12 @@
     </au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView>
     <listView>
       <owner class="hudson" reference="../../.."/>
-      <name>Manual Pipeline</name>
-      <filterExecutors>false</filterExecutors>
-      <filterQueue>false</filterQueue>
-      <properties class="hudson.model.View$PropertyList"/>
-      <jobNames>
-        <comparator class="hudson.util.CaseInsensitiveComparator"/>
-        <string>acceptance-test</string>
-        <string>approval-for-production</string>
-        <string>compile-and-test</string>
-        <string>deploy-to-prod</string>
-        <string>deploy-to-test</string>
-      </jobNames>
-      <jobFilters/>
-      <columns>
-        <hudson.views.LastDurationColumn/>
-      </columns>
-      <recurse>false</recurse>
-    </listView>
-    <listView>
-      <owner class="hudson" reference="../../.."/>
       <name>complete pipeline</name>
       <filterExecutors>false</filterExecutors>
       <filterQueue>false</filterQueue>
       <properties class="hudson.model.View$PropertyList"/>
       <jobNames>
-        <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../listView/jobNames/comparator"/>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
         <string>acceptance-test</string>
         <string>approval-for-production</string>
         <string>compile-and-test</string>
