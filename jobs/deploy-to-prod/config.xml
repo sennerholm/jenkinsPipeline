@@ -13,7 +13,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>rm -r /var/lib/jenkins/jobs/deploy-to-test/workspace/* 
+      <command>rm -rf /var/lib/jenkins/jobs/deploy-to-test/workspace/* 
 cp /var/lib/jenkins/jobs/compile-and-test/builds/${COMMIT_BUILD}/*deployment.zip deployment.zip
 unzip deployment.zip
 cd spring-petclinic*
