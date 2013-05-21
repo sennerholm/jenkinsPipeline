@@ -41,6 +41,19 @@
       <showPipelineDefinitionHeader>true</showPipelineDefinitionHeader>
       <displayProgressBar>false</displayProgressBar>
     </au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView>
+    <au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView plugin="build-pipeline-plugin@1.3.3">
+      <owner class="hudson" reference="../../.."/>
+      <name>Complete pipeline</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <triggerOnlyLatestJob>false</triggerOnlyLatestJob>
+      <alwaysAllowManualTrigger>true</alwaysAllowManualTrigger>
+      <showPipelineParameters>true</showPipelineParameters>
+      <refreshFrequency>3</refreshFrequency>
+      <showPipelineDefinitionHeader>false</showPipelineDefinitionHeader>
+      <displayProgressBar>false</displayProgressBar>
+    </au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView>
   </views>
   <primaryView>All</primaryView>
   <slaveAgentPort>0</slaveAgentPort>
