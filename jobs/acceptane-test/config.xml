@@ -25,7 +25,7 @@
               <properties>COMMIT_BUILD=${COMMIT_BUILD}</properties>
             </hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
           </configs>
-          <projects>approval-for-production, </projects>
+          <projects>approval-for-production</projects>
           <condition>SUCCESS</condition>
           <triggerWithNoParameters>false</triggerWithNoParameters>
         </hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
