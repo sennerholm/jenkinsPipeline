@@ -49,16 +49,15 @@
       <properties class="hudson.model.View$PropertyList"/>
       <jobNames>
         <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>acceptance-test</string>
+        <string>approval-for-production</string>
+        <string>compile-and-test</string>
+        <string>deploy-to-prod</string>
+        <string>deploy-to-test</string>
       </jobNames>
       <jobFilters/>
       <columns>
-        <hudson.views.StatusColumn/>
-        <hudson.views.WeatherColumn/>
-        <hudson.views.JobColumn/>
-        <hudson.views.LastSuccessColumn/>
-        <hudson.views.LastFailureColumn/>
         <hudson.views.LastDurationColumn/>
-        <hudson.views.BuildButtonColumn/>
       </columns>
       <recurse>false</recurse>
     </listView>
