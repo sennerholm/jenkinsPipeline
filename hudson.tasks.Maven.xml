@@ -3,7 +3,7 @@
   <installations>
     <hudson.tasks.Maven_-MavenInstallation>
       <name>maven</name>
-      <home>/root/apache-maven-3.0.5/</home>
+      <home>/usr/share/maven3</home>
       <properties/>
     </hudson.tasks.Maven_-MavenInstallation>
   </installations>

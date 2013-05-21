@@ -5,5 +5,7 @@
   <noUserCommitMessage>false</noUserCommitMessage>
   <displayStatus>true</displayStatus>
   <commitMessagePattern>[jenkins] config update</commitMessagePattern>
-  <manualSynchronizationIncludes/>
+  <manualSynchronizationIncludes>
+    <include>*.xml,jobs/*/config.xml</include>
+  </manualSynchronizationIncludes>
 </hudson.plugins.scm__sync__configuration.ScmSyncConfigurationPlugin>
