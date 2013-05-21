@@ -14,6 +14,8 @@
   <builders>
     <hudson.tasks.Shell>
       <command>rm -rf /var/lib/jenkins/jobs/deploy-to-test/workspace/*
+echo &quot;Deploy ${COMMIT_BUILD} to test&quot; 
+env
 cp /var/lib/jenkins/jobs/compile-and-test/builds/${COMMIT_BUILD}/*deployment.zip deployment.zip
 unzip deployment.zip
 cd spring-petclinic*
