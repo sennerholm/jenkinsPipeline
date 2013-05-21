@@ -36,7 +36,7 @@
       <buildViewTitle></buildViewTitle>
       <triggerOnlyLatestJob>false</triggerOnlyLatestJob>
       <alwaysAllowManualTrigger>false</alwaysAllowManualTrigger>
-      <showPipelineParameters>false</showPipelineParameters>
+      <showPipelineParameters>true</showPipelineParameters>
       <refreshFrequency>0</refreshFrequency>
       <showPipelineDefinitionHeader>true</showPipelineDefinitionHeader>
       <displayProgressBar>false</displayProgressBar>
